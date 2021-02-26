@@ -3,7 +3,7 @@
 .carousel-item {
     height: 400px;
     display: flex !important;
-    justify-content: center;
+    justify-content: center center;
     align-items: center;
     overflow: hidden;
 }
