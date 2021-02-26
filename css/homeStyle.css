@@ -1,7 +1,7 @@
 /*Carousel Image Slider */
 
 .carousel-item {
-    height: 400px;
+    height: 50vh;
     display: flex !important;
     justify-content: center center;
     align-items: center;
