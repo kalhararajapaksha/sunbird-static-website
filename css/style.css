@@ -44,7 +44,7 @@
  .logo{
      height:5vh;
      width: auto;
-     margin-top: -2vh;
+
     }
 
 /* header and background image */
@@ -205,3 +205,23 @@ overflow: hidden;
       background-position: center center;
       height: 15vh;
     }
+     /* CREW PAGE CSS */
+  
+  
+    
+     .crew-page{
+        background:url(../image/our_crew_background.jpg) ;
+        background-size: cover;
+      background-position:center center ;
+      background-attachment: fixed;
+      height: 100vh;
+      width: auto;
+      }
+  
+      .p4{
+        color: #7a7a7a;
+        font-style: italic;
+        font-size: 0.9em;
+        margin-top: 0px;
+        margin-bottom: 3rem;
+      } 
