@@ -1,0 +1,26 @@
+/*Carousel Image Slider */
+
+.carousel-item {
+    height: 300px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+ .carousel-item img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.carousel-inner
+{
+    box-shadow: 14px 15px 35px -6px rgba(120,120,120,1);
+    padding-top: 20PX;
+}
+.carousel-caption
+{
+    font-size: 30px;
+    font-family:"Parisienne" ;
+}
