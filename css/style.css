@@ -317,4 +317,36 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
         border-top: 2px dotted #6d6d6c;
     }
     
+    /* footer styling */
     
+    .footer-bcg{
+background-color: #343434;
+    }
+
+
+    .h7{
+font-style: initial;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 2em;
+color: white;
+    }
+.h8{
+    font-family: 'Acme', sans-serif; 
+    font-size: 1.2em; 
+    color: white;
+}
+    .p7{
+        font-style: italic;
+        color: white;
+        font-size: 0.8em;
+    }
+
+    .map{
+        width:100%;
+         height: 30vh;
+          border: 4px solid #ffffff;
+    }
+.Copyright{
+    color:white; 
+    font-size:0.8em;
+}
