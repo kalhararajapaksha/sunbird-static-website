@@ -47,13 +47,14 @@
 
     }
 
+
 /* header and background image */
 
 .hero-background {
     background: url(../image/about_head.jpg);
     height: 75vh;
     width: auto;
-   background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
     z-index: -200; ;
     background-position: center;
