@@ -119,8 +119,6 @@ height: 15vh;
     background:linear-gradient(to bottom, rgba(255, 255, 255, 0.747), rgba(163, 163, 163, 0.281)), url('../image/Homepage/feedbacks.jpg');
     background-size: cover;
     background-position:center center ;
-    background-attachment: fixed;
-    height: 100vh;
     width: auto;
 }
 
