@@ -215,15 +215,15 @@ overflow: hidden;
   
     
      .crew-page{
-        background:url(../image/our_crew_background.jpg) ;
+        background:url(../image/9arch.jpg) ;
         background-size: cover;
       background-position:center center ;
       background-attachment: fixed;
-      height: 140vh;
+      height: 120vh;
       width: auto;
       }
       .crewbcg{
-        background-color: rgba(255, 255, 255, 0.555);
+        background-color: rgba(78, 78, 78, 0.555);
          color:black;
           padding-top:3vh;
            padding-bottom:6vh;
@@ -239,13 +239,21 @@ overflow: hidden;
 
 
 /* Comment text */
+.crew-hd{
+    color:  #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.h4{
+color: #ffffff;
+}
+
 .p5{
-  color: #646464; 
-  font-style:italic;
+  color: #ffffff; 
+  font-style:normal;
    font-size: 0.9em;
 }
 .p6{
-color: #000000;
+color: #ffffff;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
