@@ -2,7 +2,7 @@
 /*Carousel Image Slider */
 
 .carousel-item {
-    height: 50vh;
+    height: 75vh;
     display: flex !important;
     justify-content: center center;
     align-items: center;
