@@ -47,13 +47,14 @@
 
     }
 
+
 /* header and background image */
 
 .hero-background {
     background: url(../image/imgSlider/img2.jpg);
     height: 75vh;
     width: auto;
-   background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
     z-index: -200; ;
     background-position: center;
