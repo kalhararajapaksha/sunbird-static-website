@@ -450,6 +450,17 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
         border-top: 2px dotted #6d6d6c;
     }
     
+
+    .foterimg-flow{
+        background-image:url(../image/corporate_info.jpg);
+         background-size: cover; 
+         background-repeat:no-repeat;
+          background-position: right bottom;
+           background-attachment: fixed;
+      width: auto;
+     height: 50vh;
+    }
+    
     /* footer styling */
     
     .footer-bcg{
