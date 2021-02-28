@@ -25,7 +25,6 @@
  .carousel-item img{
     flex-shrink: 0;
     min-width: 100%;
-    min-height: 100%;
 }
 
 
@@ -117,12 +116,12 @@ height: 15vh;
     text-align: center!important;
 }
 .FEEDBACKS{
-    background:url(../image/Homepage/feedbacks.jpg) ;
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.747), rgba(163, 163, 163, 0.281)), url('../image/Homepage/feedbacks.jpg');
     background-size: cover;
-  background-position:center center ;
-  background-attachment: fixed;
-  height: 100vh;
-  width: auto;
+    background-position:center center ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
 }
 
 /* map */
@@ -489,3 +488,41 @@ color: white;
     color: white;
   }
 
+.customer-feedback-card {
+    background-color: #0000007d;
+    border-radius: 5px;
+    display: flex;
+}
+
+.customer-feedback-card .customer-feedback-image {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #ffff;
+    width: 120px;
+    height: 120px;
+}
+
+.customer-feedback-card .customer-feedback-image img {
+    width: 100%;
+    height: auto;
+}
+
+.customer-feedback-content {
+    text-align: left;
+    padding: 15px;
+    background-color: #00000075;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.customer-feedback-content p{
+    font-size: 15px;
+    color: #ffca93;
+}
+
+.customer-feedback-content span{
+    color: #dadada;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+}
