@@ -38,85 +38,15 @@
     padding-top: 10px;
 }
 
-.tour-package-car-img6{
-    background-image: url(../image/Homepage/adventure.jpg);
-    background-size: 100% auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 15vh;
-}
-.tour-package-car-img7{
-background-image: url(../image/Homepage/history.jpg);
-background-size: 100% auto;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-height: 15vh;
-}
-.tour-package-car-img8{
-    background-image: url(../image/Homepage/honeymoon.jpg);
-    background-size: 100% auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 15vh;
-}
-.tour-package-car-img9{
-    background-image: url(../image/Homepage/beach.jpg);
-    background-size: 100% auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 15vh;
-}
-    .tour-package-car-img10{
-        background-image: url(../image/Homepage/wild_life.jpg);
-        background-size: 100% auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 15vh;
-    }
-    .tour-package-car-img11{
-        background-image: url(../image/Homepage/hiking.jpg);
-        background-size: 100% auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 15vh;
-    }
-    .tour-package-car-img12{
-        background-image: url(../image/Homepage/safari.jpg);
-        background-size: 100% auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 15vh;
-    }
 
-    .tour-package-car-img13{
-        background-image: url(../image/Homepage/ramayana.jpg);
-        background-size: 100% auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 15vh;
-    }
-    .tour-package-car-img14{
-        background-image: url(../image/Homepage/buddhist_pilgrimage.jpg);
-        background-size: 100% auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 15vh;
-    }
+
 /* feedback */
 .text-center {
     text-align: center!important;
 }
 .FEEDBACKS{
-    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.747), rgba(163, 163, 163, 0.281)), url('../image/Homepage/feedbacks.jpg');
+  
+    background:linear-gradient(to bottom, rgba(116, 115, 115, 0.8), rgb(0, 0, 0)), url('../image/Homepage/feedbacks.jpg');
     background-size: cover;
     background-position:center center ;
     width: auto;
@@ -290,7 +220,9 @@ overflow: hidden;
       background-position: center center;
       height: 15vh;
     }
-     /* CREW PAGE CSS
+
+
+     /* CREW PAGE CSS */
   
   
     
@@ -315,33 +247,31 @@ overflow: hidden;
         font-size: 0.9em;
         margin-top: 0px;
         margin-bottom: 3rem;
-      }  */
+      }  
 
 
-/* Comment text
+Comment text
 .crew-hd{
     color:  #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
-.h4{
+ .h4{
 color: #ffffff;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: inherit;
 }
+
 
 .p5{
   color: #ffffff; 
   font-style:normal;
    font-size: 0.9em;
-}
+} 
 .p6{
 color: #ffffff;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.h4{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: inherit;
-
-} */
 
  /* comment card styles */
 
@@ -524,3 +454,16 @@ color: white;
     font-weight: 600;
     font-style: italic;
 }
+
+/* special tour pacakage */
+
+.tour-pacakage-card{
+    height: 100%; 
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+d .tour-pacakage-card .tour-pacakage-img img{
+    width: 100%;
+    height: auto;
+    }
