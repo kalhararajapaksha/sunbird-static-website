@@ -225,7 +225,17 @@ color: #ffffff;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+.p8{
+    color: #646464; 
+    font-style:italic; 
+    font-size: 0.9em;
+}
+.p9{
+    color: #000000;
+}
+.p9 span{
+    font-weight:bold;
+}
  /* comment card styles */
 
 
