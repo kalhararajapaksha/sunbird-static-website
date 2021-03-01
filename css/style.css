@@ -96,64 +96,7 @@ padding-bottom: 3vh;
     padding-right: 10px;
 }
 
-@media screen and (max-width: 840px){
-    .menu-comp-name {
-        font-size: 1.25em;
-    }
-    .menu-item-text {
-        font-size: 0.8em;
-    }
-}
 
-@media screen and (max-width: 700px){
-    .menu-comp-name {
-        font-size: 1em;
-    }
-    .menu-item-text {
-        font-size: 0.65em;
-    }
-}
-
-/* feed back */
-
-@media screen and (min-width: 992px) {
-    /* .feed-b-3-1, .feed-b-3-3{
-        margin: 0% 6.25%;
-    } */
-
-    .feed-b-2-1{
-        margin: 0% 2.777778% 0% 5.555556%;
-    }
-    .feed-b-2-2{
-        margin: 0% 5.555556% 0% 2.777778%;
-    }
-
-    .package-3-1, .package-3-3 {
-        margin: 0% 6.25%;
-    }
-
-    .map-social-3-1, .map-social-3-3 {
-        margin: 0% 6.25%;
-    }
-
-    .comment-img-m {
-        margin: 0px auto;
-        /* margin: 0px; */
-    }
-}
-
-@media screen and (max-width:991px) and (min-width: 768px) {
-    .feed-b-2-1{
-        margin: 0% 2.777778% 0% 5.555556%;
-    }
-    .feed-b-2-2{
-        margin: 0% 5.555556% 0% 2.777778%;
-    }
-
-    .package-3-1, .package-3-3 {
-        margin: 0% 2.5%;
-    }
-  }
 
 /* tour packages css */
 .h3{
@@ -375,10 +318,11 @@ color: white;
     color: white;
   }
   
- .tripadvisor-svg{
-     width: 35px;
-     height: 35px;
- }
+.fa-tripadvisor{
+    background:#00AF87;
+    color: white;
+    text-align: center;
+}
 
 
 .customer-feedback-card {
