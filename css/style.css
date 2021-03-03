@@ -20,6 +20,9 @@
     justify-content: center center;
     align-items: center;
     overflow: hidden;
+    transition: -webkit-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    transition: transform .1s ease-in-out,-webkit-transform .3s ease-in-out;
 }
 
  .carousel-item img{
@@ -400,6 +403,7 @@ d .tour-pacakage-card .tour-pacakage-img img{
 .tripadvisors .tripadvisors-frame{
     width:100%;height:100%;border:none;
 }
+<<<<<<< HEAD
 /* testimonial */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
@@ -607,4 +611,18 @@ d .tour-pacakage-card .tour-pacakage-img img{
 	width: 10px;
 	height: 10px;
 	transition: all 300ms ease-in-out;
+=======
+.embed-responsive{
+    height: 78vh;
+    width: 100%;
+}
+.bacgroundimage {
+   background-color:rgb(0, 0, 0) ; 
+   background-image: url(../image/contact\ us.jpg);
+   height: 85vh;
+   width: auto;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+>>>>>>> 90ba6987691047911f8c827ac9456e473c8af51e
 }
