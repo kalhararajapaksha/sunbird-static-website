@@ -470,7 +470,7 @@ d .tour-pacakage-card .tour-pacakage-img img{
 }
 .listing-carousel-button.listing-carousel-button-next:hover{
 	right: -15px;
-	background: rgba(6,27,65,0.4);
+	background: rgba(5, 5, 5, 0.4);
 }
 .listing-carousel-button.listing-carousel-button-prev:hover{
 	left: -15px;
@@ -606,7 +606,7 @@ d .tour-pacakage-card .tour-pacakage-img img{
 }
 .tc-pagination .swiper-pagination-bullet, .tc-pagination2.swiper-pagination-bullet{
 	opacity: 1;
-	background: #384f95;
+	background: #000000;
 	margin:0 2px;
 	width: 10px;
 	height: 10px;
