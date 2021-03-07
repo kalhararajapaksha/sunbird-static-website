@@ -633,3 +633,15 @@ color: white;
 
 }
 
+.contact-info {
+    font-size: 18px;
+    color: #ffff;
+    background-color: #0000004a;
+    border-radius: 5px;
+    padding: 25px;
+    height: 100%;
+}
+
+.contact-info label{
+    font-weight: 600;
+}
